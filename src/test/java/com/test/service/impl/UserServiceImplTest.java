@@ -16,7 +16,7 @@ public class UserServiceImplTest {
     private UserService userService;
 
     @Test
-    public void test() {
+    public void getUser() {
         User user = userService.getUser();
     }
 }
